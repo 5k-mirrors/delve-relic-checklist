@@ -4,6 +4,7 @@
 
 .row {
   display: flex;
+  height: 50px;
   align-items: center;
   align-content: center;
   margin-left: 10px;
