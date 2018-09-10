@@ -7,9 +7,9 @@ If the list is missing a relic please file an issue [here](https://github.com/Ke
 
 ## TODO:
 
-* Load aquired relics from stash tabs
-* Counter
-* Hide aquired relics
-* link 
-* UI redesign
-* rearrange relics.json structure
+- [ ] Load aquired relics from stash tabs
+- [ ] Counter
+- [x] Hide aquired relics
+- [ ] link 
+- [ ] UI redesign
+- [ ] rearrange relics.json structure
