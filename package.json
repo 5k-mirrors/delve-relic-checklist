@@ -1,0 +1,44 @@
+{
+  "name": "relic-checklist",
+  "version": "0.1.0",
+  "description": "This is a checklist for relic collectors in the Delve league.\r Unique names are from [reddit](https://old.reddit.com/r/pathofexile/comments/97gmte/actual_list_of_151_reliquary_items/), thanks for /u/BongJuan",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --mode development",
+    "transpile": "babel src -d dist --copy-files",
+    "build": "webpack --mode production",
+    "deploy": "gh-pages -d dist",
+    "publish": "npm run build && npm run deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kexort/relic-checklist.git"
+  },
+  "author": "Kexort",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kexort/relic-checklist/issues"
+  },
+  "homepage": "https://github.com/Kexort/relic-checklist#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^1.0.0",
+    "gh-pages": "^1.2.0",
+    "html-webpack-plugin": "^3.2.0",
+    "react": "^16.5.0",
+    "react-dom": "^16.5.0",
+    "style-loader": "^0.23.0",
+    "webpack": "^4.18.0",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.8"
+  },
+  "dependencies": {
+    "json-loader": "^0.5.7"
+  }
+}

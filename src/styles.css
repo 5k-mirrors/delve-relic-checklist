@@ -1,0 +1,42 @@
+.checklist {
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.imgcontainer {
+  justify-content: center;
+  text-align: center;
+  width: 60px;
+}
+.icon {
+  max-width: 50px;
+  max-height: 50px;
+  margin: auto;
+}
+
+.checked {
+  background-color: green;
+}
+
+input[type="checkbox"] {
+  -ms-transform: scale(1.5); /* IE */
+  -moz-transform: scale(1.5); /* FF */
+  -webkit-transform: scale(1.5); /* Safari and Chrome */
+  -o-transform: scale(1.5); /* Opera */
+  padding: 10px;
+}
+.containter {
+  display: inline-block;
+  text-align: left;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
