@@ -9,11 +9,13 @@
   margin-left: 10px;
   margin-right: 10px;
 }
+
 .imgcontainer {
   justify-content: center;
   text-align: center;
   width: 60px;
 }
+
 .icon {
   max-width: 50px;
   max-height: 50px;
@@ -31,9 +33,14 @@ input[type="checkbox"] {
   -o-transform: scale(1.5); /* Opera */
   padding: 10px;
 }
+
 .containter {
   display: inline-block;
   text-align: left;
+}
+
+.hidden {
+  display: none;
 }
 
 .App {
