@@ -13,3 +13,4 @@ If the list is missing a relic please file an issue [here](https://github.com/Ke
 - [ ] link 
 - [ ] UI redesign
 - [ ] rearrange relics.json structure
+- [ ] refactor
