@@ -34,7 +34,7 @@ class List extends React.Component {
     });
     return (
       <div>
-        <input type="checkbox" onChange={e => this.setState({hideAquired: !this.state.hideAquired})}/>
+        <label><strong><input type="checkbox" onChange={e => this.setState({hideAquired: !this.state.hideAquired})}/> Hide aquired relics</strong></label>
         {listItems}
       </div>
 
