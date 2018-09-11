@@ -10,7 +10,7 @@ If the list is missing a relic please file an issue [here](https://github.com/Ke
 ## TODO:
 
 - [ ] Load aquired relics from stash tabs
-- [ ] Counter
+- [x] Counter
 - [x] Hide aquired relics
 - [ ] link 
 - [ ] UI redesign
