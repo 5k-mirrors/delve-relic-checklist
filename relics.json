@@ -169,6 +169,10 @@
     "The Red Dream": {
       "name": "The Red Dream",
       "icon": "https://web.poecdn.com/image/Art/2DItems/Jewels/TheRedDream.png?scale=1&scaleIndex=0&w=1&h=1"
+    },
+    "Skin of the Loyal": {
+      "name": "Skin of the Loyal",
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/MyriadGrasp.png?scale=1&scaleIndex=0&w=2&h=3&relic=1"
     }
   },
   "Breach (upgraded items)": {
@@ -239,6 +243,10 @@
     "The Blue Nightmare": {
       "name": "The Blue Nightmare",
       "icon": "https://web.poecdn.com/image/Art/2DItems/Jewels/TheBlueDreamUpgrade.png?scale=1&scaleIndex=0&w=1&h=1"
+    },
+    "Skin of the Lords": {
+      "name": "Skin of the Lords",
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/MyriadGraspGrand.png?scale=1&scaleIndex=0&w=2&h=3"
     }
   },
   "Bloodline": {
