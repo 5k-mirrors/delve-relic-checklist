@@ -4,17 +4,30 @@ import ReactDOM from "react-dom";
 import "./styles.css";
 import relics from "../relics.json";
 
-let checklist = localStorage.hasOwnProperty("checklist")
-  ? JSON.parse(localStorage.getItem("checklist"))
-  : [];
-
 class List extends React.Component {
   constructor(props) {
     super(props);
+
+    let checkList = localStorage.hasOwnProperty("checklist")
+    ? JSON.parse(localStorage.getItem("checklist"))
+    : [];
+
     this.state = {
-      hideAquired: false
+      hideAquired: false,
+      checklist: checkList
     };
+
+    this.handleClick = this.handleClick.bind(this);
   }
+  
+  handleClick(relicName) {
+    let checklist = this.state.checklist;
+    if (!this.state.checklist.includes(relicName)) checklist.push(relicName);
+    else checklist.splice(checklist.indexOf(relicName), 1);
+    localStorage.setItem("checklist", JSON.stringify(checklist));
+    this.setState({checklist: checklist});
+  }
+
   render() {
     let listItems = Object.keys(relics).map(category => {
       return (
@@ -23,6 +36,8 @@ class List extends React.Component {
           <div className="containter">
             {Object.keys(relics[category]).map(relic => (
               <ListItem
+                onClick={this.handleClick}
+                checked={this.state.checklist.includes(relics[category][relic].name)}
                 hideAquired={this.state.hideAquired}
                 relicIcon={relics[category][relic].icon}
                 relicName={relics[category][relic].name}
@@ -34,6 +49,7 @@ class List extends React.Component {
     });
     return (
       <div>
+        <h2>{this.state.checklist.length} / 151</h2>
         <label><strong><input type="checkbox" onChange={e => this.setState({hideAquired: !this.state.hideAquired})}/> Hide aquired relics</strong></label>
         {listItems}
       </div>
@@ -46,22 +62,16 @@ class ListItem extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      checked: checklist.includes(props.relicName)
+      checked: props.checked
     };
 
     this.relicName = props.relicName;
     this.relicIcon = props.relicIcon;
-    this.handleClick = this.handleClick.bind(this);
   }
 
   handleClick() {
-    this.setState({
-      checked: !this.state.checked
-    });
-
-    if (!this.state.checked) checklist.push(this.relicName);
-    else checklist.splice(checklist.indexOf(this.relicName), 1);
-    localStorage.setItem("checklist", JSON.stringify(checklist));
+    this.setState({checked: !this.state.checked});
+    this.props.onClick(this.relicName);
   }
 
   render() {
@@ -80,7 +90,7 @@ class ListItem extends React.Component {
           <input
             checked={this.state.checked}
             type="checkbox"
-            onClick={this.handleClick}
+            onClick={this.handleClick.bind(this)}
           />
           &nbsp;{this.relicName}
         </label>
