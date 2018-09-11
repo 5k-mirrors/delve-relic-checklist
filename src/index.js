@@ -33,7 +33,7 @@ class List extends React.Component {
       return (
         <div className="checklist">
           <h2>{category}</h2>
-          <div className="containter">
+          <div className="list">
             {Object.keys(relics[category]).map(relic => (
               <ListItem
                 onClick={this.handleClick}
@@ -51,7 +51,9 @@ class List extends React.Component {
       <div>
         <h2>{this.state.checklist.length} / 151</h2>
         <label><strong><input type="checkbox" onChange={e => this.setState({hideAquired: !this.state.hideAquired})}/> Hide aquired relics</strong></label>
-        {listItems}
+        <div className="containter">
+          {listItems}
+        </div>
       </div>
 
     );

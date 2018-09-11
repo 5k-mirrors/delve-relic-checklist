@@ -35,13 +35,15 @@ input[type="checkbox"] {
   padding: 10px;
 }
 
-.containter {
+.checklist {
   display: inline-block;
-  text-align: left;
+  width: 300px;
 }
 
-.hidden {
-  display: none;
+.containter {
+  -moz-column-width: 300px;
+  -webkit-column-width: 300px;
+  column-width: 300px;
 }
 
 .App {
