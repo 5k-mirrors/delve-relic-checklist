@@ -49,7 +49,7 @@ class List extends React.Component {
     });
     return (
       <div>
-        <h2>{this.state.checklist.length} / 151</h2>
+        <h2>{this.state.checklist.length} / 152</h2>
         <label><strong><input type="checkbox" onChange={e => this.setState({hideAquired: !this.state.hideAquired})}/> Hide aquired relics</strong></label>
         <div className="containter">
           {listItems}
