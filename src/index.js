@@ -12,14 +12,20 @@ class List extends React.Component {
     ? JSON.parse(localStorage.getItem("checklist"))
     : [];
 
+    let sumOfRelics = 0;
+    for (let relicKey in relics) {
+      sumOfRelics += Object.keys(relics[relicKey]).length;
+    }
+
     this.state = {
       hideAquired: false,
-      checklist: checkList
+      checklist: checkList,
+      sumOfRelics: sumOfRelics
     };
 
     this.handleClick = this.handleClick.bind(this);
   }
-  
+
   handleClick(relicName) {
     let checklist = this.state.checklist;
     if (!this.state.checklist.includes(relicName)) checklist.push(relicName);
@@ -49,7 +55,7 @@ class List extends React.Component {
     });
     return (
       <div>
-        <h2>{this.state.checklist.length} / 151</h2>
+        <h2>{this.state.checklist.length} / {this.state.sumOfRelics}</h2>
         <label><strong><input type="checkbox" onChange={e => this.setState({hideAquired: !this.state.hideAquired})}/> Hide aquired relics</strong></label>
         <div className="containter">
           {listItems}
