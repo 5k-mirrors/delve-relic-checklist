@@ -1,640 +1,790 @@
 {
-  "Anarchy/Onslaught": {
-    "Daresso's Salute": {
+  "Anarchy/Onslaught": [
+    {
       "name": "Daresso's Salute",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Amulets/CitrineAmuletUnique.png?scale=1&scaleIndex=0&w=1&h=1"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Amulets/CitrineAmuletUnique.png?scale=1&scaleIndex=0&w=1&h=1",
+      "id": 1
     },
-    "Gifts from Above": {
+    {
       "name": "Gifts from Above",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Rings/DiamondRingUnique.png?scale=1&scaleIndex=0&w=1&h=1"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Rings/DiamondRingUnique.png?scale=1&scaleIndex=0&w=1&h=1",
+      "id": 2
     },
-    "Shavronne's Revelation": {
+    {
       "name": "Shavronne's Revelation",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Rings/MoonstoneRingUnique.png?scale=1&scaleIndex=0&w=1&h=1"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Rings/MoonstoneRingUnique.png?scale=1&scaleIndex=0&w=1&h=1",
+      "id": 3
     },
-    "Voll's Devotion": {
+    {
       "name": "Voll's Devotion",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Amulets/AgateAmuletUnique.png?scale=1&scaleIndex=0&w=1&h=1"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Amulets/AgateAmuletUnique.png?scale=1&scaleIndex=0&w=1&h=1",
+      "id": 4
     },
-    "Death Rush": {
+    {
       "name": "Death Rush",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Rings/AmethystRingUnique.png?scale=1&scaleIndex=0&w=1&h=1"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Rings/AmethystRingUnique.png?scale=1&scaleIndex=0&w=1&h=1",
+      "id": 5
     },
-    "Victario's Acuity": {
+    {
       "name": "Victario's Acuity",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Amulets/TurquoiseAmuletUnique.png?scale=1&scaleIndex=0&w=1&h=1"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Amulets/TurquoiseAmuletUnique.png?scale=1&scaleIndex=0&w=1&h=1",
+      "id": 6
     }
-  },
-  "Bestiary": {
-    "Craiceann's Carapace": {
+  ],
+  "Bestiary": [
+    {
       "name": "Craiceann's Carapace",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/CrabUnique.png?scale=1&scaleIndex=0&w=2&h=3"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/CrabUnique.png?scale=1&scaleIndex=0&w=2&h=3",
+      "id": 7
     },
-    "Craiceann's Chitin": {
+    {
       "name": "Craiceann's Chitin",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/CrabUniqueHelmet.png?scale=1&scaleIndex=0&w=2&h=2"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/CrabUniqueHelmet.png?scale=1&scaleIndex=0&w=2&h=2",
+      "id": 8
     },
-    "Craiceann's Pincers": {
+    {
       "name": "Craiceann's Pincers",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/CrabUniqueGloves.png?scale=1&scaleIndex=0&w=2&h=2"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/CrabUniqueGloves.png?scale=1&scaleIndex=0&w=2&h=2",
+      "id": 9
     },
-    "Craiceann's Tracks": {
+    {
       "name": "Craiceann's Tracks",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/CrabUniqueBoots.png?scale=1&scaleIndex=0&w=2&h=2"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/CrabUniqueBoots.png?scale=1&scaleIndex=0&w=2&h=2",
+      "id": 10
     },
-    "Farrul's Bite": {
+    {
       "name": "Farrul's Bite",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/TigerHelmet.png?scale=1&scaleIndex=0&w=2&h=2"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/TigerHelmet.png?scale=1&scaleIndex=0&w=2&h=2",
+      "id": 11
     },
-    "Farrul's Chase": {
+    {
       "name": "Farrul's Chase",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/TigerBoots.png?scale=1&scaleIndex=0&w=2&h=2"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/TigerBoots.png?scale=1&scaleIndex=0&w=2&h=2",
+      "id": 12
     },
-    "Farrul's Fur": {
+    {
       "name": "Farrul's Fur",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/TigerBodyArmour.png?scale=1&scaleIndex=0&w=2&h=3"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/TigerBodyArmour.png?scale=1&scaleIndex=0&w=2&h=3",
+      "id": 13
     },
-    "Farrul's Pounce": {
+    {
       "name": "Farrul's Pounce",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/TigerGloves.png?scale=1&scaleIndex=0&w=2&h=2"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/TigerGloves.png?scale=1&scaleIndex=0&w=2&h=2",
+      "id": 14
     },
-    "Fenumus' Shroud": {
+    {
       "name": "Fenumus' Shroud",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/SpiderArmourBody.png?scale=1&scaleIndex=0&w=2&h=3"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/SpiderArmourBody.png?scale=1&scaleIndex=0&w=2&h=3",
+      "id": 15
     },
-    "Fenumus' Spinnerets": {
+    {
       "name": "Fenumus' Spinnerets",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/SpiderArmourBoots.png?scale=1&scaleIndex=0&w=2&h=2"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/SpiderArmourBoots.png?scale=1&scaleIndex=0&w=2&h=2",
+      "id": 16
     },
-    "Fenumus' Toxins": {
+    {
       "name": "Fenumus' Toxins",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/SpiderArmourHelmet.png?scale=1&scaleIndex=0&w=2&h=2"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/SpiderArmourHelmet.png?scale=1&scaleIndex=0&w=2&h=2",
+      "id": 17
     },
-    "Fenumus' Weave": {
+    {
       "name": "Fenumus' Weave",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/SpiderArmour Gloves.png?scale=1&scaleIndex=0&w=2&h=2"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/SpiderArmour Gloves.png?scale=1&scaleIndex=0&w=2&h=2",
+      "id": 18
     },
-    "Saqawal's Flock": {
+    {
       "name": "Saqawal's Flock",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/AvianHelmet.png?scale=1&scaleIndex=0&w=2&h=2"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/AvianHelmet.png?scale=1&scaleIndex=0&w=2&h=2",
+      "id": 19
     },
-    "Saqawal's Nest": {
+    {
       "name": "Saqawal's Nest",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/AvianBodyArmour.png?scale=1&scaleIndex=0&w=2&h=3"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/AvianBodyArmour.png?scale=1&scaleIndex=0&w=2&h=3",
+      "id": 20
     },
-    "Saqawal's Talons": {
+    {
       "name": "Saqawal's Talons",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/AvianBoots.png?scale=1&scaleIndex=0&w=2&h=2"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/AvianBoots.png?scale=1&scaleIndex=0&w=2&h=2",
+      "id": 21
     },
-    "Saqawal's Winds": {
+    {
       "name": "Saqawal's Winds",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/AvianGloves.png?scale=1&scaleIndex=0&w=2&h=2"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/AvianGloves.png?scale=1&scaleIndex=0&w=2&h=2",
+      "id": 22
     }
-  },
-  "Beyond": {
-    "Edge of Madness": {
+  ],
+  "Beyond": [
+    {
       "name": "Edge of Madness",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandSwords/EdgeOfMadness.png?scale=1&scaleIndex=0&w=2&h=4"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandSwords/EdgeOfMadness.png?scale=1&scaleIndex=0&w=2&h=4",
+      "id": 23
     },
-    "The Dark Seer": {
+    {
       "name": "The Dark Seer",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Scepters/VoidGaze.png?scale=1&scaleIndex=0&w=2&h=3"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Scepters/VoidGaze.png?scale=1&scaleIndex=0&w=2&h=3",
+      "id": 24
     },
-    "The Harvest": {
+    {
       "name": "The Harvest",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandAxes/TheExtractor.png?scale=1&scaleIndex=0&w=2&h=4"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandAxes/TheExtractor.png?scale=1&scaleIndex=0&w=2&h=4",
+      "id": 25
     }
-  },
-  "Breach (base items)": {
-    "Xoph's Inception": {
+  ],
+  "Breach (base items)": [
+    {
       "name": "Xoph's Inception",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Bows/BloodPerigree.png?scale=1&scaleIndex=0&w=2&h=4"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Bows/BloodPerigree.png?scale=1&scaleIndex=0&w=2&h=4",
+      "id": 26
     },
-    "The Formless Flame": {
+    {
       "name": "The Formless Flame",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/FormlessInFlames.png?scale=1&scaleIndex=0&w=2&h=2"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/FormlessInFlames.png?scale=1&scaleIndex=0&w=2&h=2",
+      "id": 27
     },
-    "Xoph's Heart": {
+    {
       "name": "Xoph's Heart",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Amulets/YphethakksHeart.png?scale=1&scaleIndex=0&w=1&h=1"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Amulets/YphethakksHeart.png?scale=1&scaleIndex=0&w=1&h=1",
+      "id": 28
     },
-    "Tulborn": {
+    {
       "name": "Tulborn",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Wands/Tulborn.png?scale=1&scaleIndex=0&w=1&h=3"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Wands/Tulborn.png?scale=1&scaleIndex=0&w=1&h=3",
+      "id": 29
     },
-    "The Snowblind Grace": {
+    {
       "name": "The Snowblind Grace",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/TheSnowblindGrace.png?scale=1&scaleIndex=0&w=2&h=3"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/TheSnowblindGrace.png?scale=1&scaleIndex=0&w=2&h=3",
+      "id": 30
     },
-    "The Halcyon": {
+    {
       "name": "The Halcyon",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Amulets/GlacierCacoon.png?scale=1&scaleIndex=0&w=1&h=1"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Amulets/GlacierCacoon.png?scale=1&scaleIndex=0&w=1&h=1",
+      "id": 31
     },
-    "Hand of Thought and Motion": {
+    {
       "name": "Hand of Thought and Motion",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Claws/ThoughtMotion1.png?scale=1&scaleIndex=0&w=2&h=2"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Claws/ThoughtMotion1.png?scale=1&scaleIndex=0&w=2&h=2",
+      "id": 32
     },
-    "Esh's Mirror": {
+    {
       "name": "Esh's Mirror",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/EshsMirror.png?scale=1&scaleIndex=0&w=2&h=2"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/EshsMirror.png?scale=1&scaleIndex=0&w=2&h=2",
+      "id": 33
     },
-    "Voice of the Storm": {
+    {
       "name": "Voice of the Storm",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Amulets/VoiceOfTheStorm.png?scale=1&scaleIndex=0&w=1&h=1"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Amulets/VoiceOfTheStorm.png?scale=1&scaleIndex=0&w=1&h=1",
+      "id": 34
     },
-    "Uul-Netol's Kiss": {
+    {
       "name": "Uul-Netol's Kiss",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandAxes/UulNetolsKiss.png?scale=1&scaleIndex=0&w=2&h=4"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandAxes/UulNetolsKiss.png?scale=1&scaleIndex=0&w=2&h=4",
+      "id": 35
     },
-    "The Infinite Pursuit": {
+    {
       "name": "The Infinite Pursuit",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/TwoTonedBootsALT3.png?scale=1&scaleIndex=0&w=2&h=2"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/TwoTonedBootsALT3.png?scale=1&scaleIndex=0&w=2&h=2",
+      "id": 36
     },
-    "The Anticipation": {
+    {
       "name": "The Anticipation",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/Longing1.png?scale=1&scaleIndex=0&w=2&h=4"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/Longing1.png?scale=1&scaleIndex=0&w=2&h=4",
+      "id": 37
     },
-    "Severed in Sleep": {
+    {
       "name": "Severed in Sleep",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandSwords/EternalSleep1.png?scale=1&scaleIndex=0&w=1&h=3"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandSwords/EternalSleep1.png?scale=1&scaleIndex=0&w=1&h=3",
+      "id": 38
     },
-    "The Blue Dream": {
+    {
       "name": "The Blue Dream",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Jewels/TheBlueDream.png?scale=1&scaleIndex=0&w=1&h=1"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Jewels/TheBlueDream.png?scale=1&scaleIndex=0&w=1&h=1",
+      "id": 39
     },
-    "The Green Dream": {
+    {
       "name": "The Green Dream",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Jewels/TheGreenDream.png?scale=1&scaleIndex=0&w=1&h=1"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Jewels/TheGreenDream.png?scale=1&scaleIndex=0&w=1&h=1",
+      "id": 40
     },
-    "The Red Dream": {
+    {
       "name": "The Red Dream",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Jewels/TheRedDream.png?scale=1&scaleIndex=0&w=1&h=1"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Jewels/TheRedDream.png?scale=1&scaleIndex=0&w=1&h=1",
+      "id": 41
     }
-  },
-  "Breach (upgraded items)": {
-    "Xoph's Nurture": {
+  ],
+  "Breach (upgraded items)": [
+    {
       "name": "Xoph's Nurture",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Bows/BloodPerigreeBREACH.png?scale=1&scaleIndex=0&w=2&h=4"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Bows/BloodPerigreeBREACH.png?scale=1&scaleIndex=0&w=2&h=4",
+      "id": 42
     },
-    "The Formless Inferno": {
+    {
       "name": "The Formless Inferno",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/FormlessInFlamesUPGRADE.png?scale=1&scaleIndex=0&w=2&h=2"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/FormlessInFlamesUPGRADE.png?scale=1&scaleIndex=0&w=2&h=2",
+      "id": 43
     },
-    "Xoph's Blood": {
+    {
       "name": "Xoph's Blood",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Amulets/YphethakksHeartUpgrade.png?scale=1&scaleIndex=0&w=1&h=1"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Amulets/YphethakksHeartUpgrade.png?scale=1&scaleIndex=0&w=1&h=1",
+      "id": 44
     },
-    "Tulfall": {
+    {
       "name": "Tulfall",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Wands/TulbornUpgraded.png?scale=1&scaleIndex=0&w=1&h=3"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Wands/TulbornUpgraded.png?scale=1&scaleIndex=0&w=1&h=3",
+      "id": 45
     },
-    "The Perfect Form": {
+    {
       "name": "The Perfect Form",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/ThePerfectForm.png?scale=1&scaleIndex=0&w=2&h=3"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/ThePerfectForm.png?scale=1&scaleIndex=0&w=2&h=3",
+      "id": 46
     },
-    "The Pandemonius": {
+    {
       "name": "The Pandemonius",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Amulets/GlacierCacoonUpgrade.png?scale=1&scaleIndex=0&w=1&h=1"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Amulets/GlacierCacoonUpgrade.png?scale=1&scaleIndex=0&w=1&h=1",
+      "id": 47
     },
-    "Hand of Wisdom and Action": {
+    {
       "name": "Hand of Wisdom and Action",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Claws/ThoughtMotion2.png?scale=1&scaleIndex=0&w=2&h=2"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Claws/ThoughtMotion2.png?scale=1&scaleIndex=0&w=2&h=2",
+      "id": 48
     },
-    "Esh's Visage": {
+    {
       "name": "Esh's Visage",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/EshsMirrorUpgraded.png?scale=1&scaleIndex=0&w=2&h=2"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/EshsMirrorUpgraded.png?scale=1&scaleIndex=0&w=2&h=2",
+      "id": 49
     },
-    "Choir of the Storm": {
+    {
       "name": "Choir of the Storm",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Amulets/VoiceOfTheStormUpgrade.png?scale=1&scaleIndex=0&w=1&h=1"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Amulets/VoiceOfTheStormUpgrade.png?scale=1&scaleIndex=0&w=1&h=1",
+      "id": 50
     },
-    "Uul-Netol's Embrace": {
+    {
       "name": "Uul-Netol's Embrace",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandAxes/UulNetolsKissUpgraded.png?scale=1&scaleIndex=0&w=2&h=4"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandAxes/UulNetolsKissUpgraded.png?scale=1&scaleIndex=0&w=2&h=4",
+      "id": 51
     },
-    "The Red Trail": {
+    {
       "name": "The Red Trail",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/TheInfinitePursuit.png?scale=1&scaleIndex=0&w=2&h=2"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/TheInfinitePursuit.png?scale=1&scaleIndex=0&w=2&h=2",
+      "id": 52
     },
-    "The Surrender": {
+    {
       "name": "The Surrender",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/Longing2.png?scale=1&scaleIndex=0&w=2&h=4"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/Longing2.png?scale=1&scaleIndex=0&w=2&h=4",
+      "id": 53
     },
-    "United in Dream": {
+    {
       "name": "United in Dream",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandSwords/EternalSleep2.png?scale=1&scaleIndex=0&w=1&h=3"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandSwords/EternalSleep2.png?scale=1&scaleIndex=0&w=1&h=3",
+      "id": 54
     },
-    "Presence of Chayula": {
+    {
       "name": "Presence of Chayula",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Amulets/PresenceOfChayula.png?scale=1&scaleIndex=0&w=1&h=1"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Amulets/PresenceOfChayula.png?scale=1&scaleIndex=0&w=1&h=1",
+      "id": 55
     },
-    "The Red Nightmare": {
+    {
       "name": "The Red Nightmare",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Jewels/TheRedDreamUpgrade.png?scale=1&scaleIndex=0&w=1&h=1"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Jewels/TheRedDreamUpgrade.png?scale=1&scaleIndex=0&w=1&h=1",
+      "id": 56
     },
-    "The Green Nightmare": {
+    {
       "name": "The Green Nightmare",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Jewels/TheGreenDreamUpgrade.png?scale=1&scaleIndex=0&w=1&h=1"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Jewels/TheGreenDreamUpgrade.png?scale=1&scaleIndex=0&w=1&h=1",
+      "id": 57
     },
-    "The Blue Nightmare": {
+    {
       "name": "The Blue Nightmare",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Jewels/TheBlueDreamUpgrade.png?scale=1&scaleIndex=0&w=1&h=1"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Jewels/TheBlueDreamUpgrade.png?scale=1&scaleIndex=0&w=1&h=1",
+      "id": 58
     }
-  },
-  "Bloodline": {
-    "Tasalio's Sign": {
+  ],
+  "Bloodline": [
+    {
       "name": "Tasalio's Sign",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Rings/TasaliosSign.png?scale=1&scaleIndex=0&w=1&h=1"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Rings/TasaliosSign.png?scale=1&scaleIndex=0&w=1&h=1",
+      "id": 59
     },
-    "Ngamahu's Sign": {
+    {
       "name": "Ngamahu's Sign",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Rings/NgamahusSign.png?scale=1&scaleIndex=0&w=1&h=1"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Rings/NgamahusSign.png?scale=1&scaleIndex=0&w=1&h=1",
+      "id": 60
     },
-    "Valako's Sign": {
+    {
       "name": "Valako's Sign",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Rings/ValakosSign.png?scale=1&scaleIndex=0&w=1&h=1"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Rings/ValakosSign.png?scale=1&scaleIndex=0&w=1&h=1",
+      "id": 61
     }
-  },
-  "Nemesis/Domination": {
-    "Berek's Grip": {
+  ],
+  "Nemesis/Domination": [
+    {
       "name": "Berek's Grip",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Rings/BereksGrip.png?scale=1&scaleIndex=0&w=1&h=1"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Rings/BereksGrip.png?scale=1&scaleIndex=0&w=1&h=1",
+      "id": 62
     },
-    "Berek's Pass": {
+    {
       "name": "Berek's Pass",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Rings/BereksPass.png?scale=1&scaleIndex=0&w=1&h=1"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Rings/BereksPass.png?scale=1&scaleIndex=0&w=1&h=1",
+      "id": 63
     },
-    "Berek's Respite": {
+    {
       "name": "Berek's Respite",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Rings/BereksRespite.png?scale=1&scaleIndex=0&w=1&h=1"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Rings/BereksRespite.png?scale=1&scaleIndex=0&w=1&h=1",
+      "id": 64
     },
-    "Blood of the Karui": {
+    {
       "name": "Blood of the Karui",
-      "icon": "https://web.poecdn.com/gen/image/WzksNCx7ImYiOiJBcnRcLzJESXRlbXNcL0ZsYXNrc1wvQmxvb2RPZlRoZUthcnVpIiwic3AiOjAuNjA4NSwicmxjIjp0cnVlLCJsZXZlbCI6MH1d/9cd154fc63/Item.png"
+      "icon": "https://web.poecdn.com/gen/image/WzksNCx7ImYiOiJBcnRcLzJESXRlbXNcL0ZsYXNrc1wvQmxvb2RPZlRoZUthcnVpIiwic3AiOjAuNjA4NSwicmxjIjp0cnVlLCJsZXZlbCI6MH1d/9cd154fc63/Item.png",
+      "id": 65
     },
-    "Lavianga's Spirit": {
+    {
       "name": "Lavianga's Spirit",
-      "icon": "https://web.poecdn.com/gen/image/WzksNCx7ImYiOiJBcnRcLzJESXRlbXNcL0ZsYXNrc1wvTGF2aWFuZ2FzT2lsIiwic3AiOjAuNjA4NSwicmxjIjp0cnVlLCJsZXZlbCI6MH1d/d7b63e4eac/Item.png"
+      "icon": "https://web.poecdn.com/gen/image/WzksNCx7ImYiOiJBcnRcLzJESXRlbXNcL0ZsYXNrc1wvTGF2aWFuZ2FzT2lsIiwic3AiOjAuNjA4NSwicmxjIjp0cnVlLCJsZXZlbCI6MH1d/d7b63e4eac/Item.png",
+      "id": 66
     },
-    "Headhunter": {
+    {
       "name": "Headhunter",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Belts/Headhunter.png?scale=1&scaleIndex=0&w=2&h=1"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Belts/Headhunter.png?scale=1&scaleIndex=0&w=2&h=1",
+      "id": 67
     },
-    "The Gull": {
+    {
       "name": "The Gull",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/TheGull.png?scale=1&scaleIndex=0&w=2&h=2"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/TheGull.png?scale=1&scaleIndex=0&w=2&h=2",
+      "id": 68
     }
-  },
-  "Harbinger": {
-    "The Flow Untethered": {
+  ],
+  "Harbinger": [
+    {
       "name": "The Flow Untethered",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Belts/HarbingerBelt.png?scale=1&scaleIndex=0&w=2&h=1"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Belts/HarbingerBelt.png?scale=1&scaleIndex=0&w=2&h=1",
+      "id": 69
     },
-    "The Fracturing Spinner": {
+    {
       "name": "The Fracturing Spinner",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Quivers/HarbingerQuiver.png?scale=1&scaleIndex=0&w=2&h=3"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Quivers/HarbingerQuiver.png?scale=1&scaleIndex=0&w=2&h=3",
+      "id": 70
     },
-    "The Tempest's Binding": {
+    {
       "name": "The Tempest's Binding",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/ChillShockHarbingerMask.png?scale=1&scaleIndex=0&w=2&h=2"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/ChillShockHarbingerMask.png?scale=1&scaleIndex=0&w=2&h=2",
+      "id": 71
     },
-    "The Rippling Thoughts": {
+    {
       "name": "The Rippling Thoughts",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandSwords/HarbingerLeagueSword.png?scale=1&scaleIndex=0&w=2&h=3"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandSwords/HarbingerLeagueSword.png?scale=1&scaleIndex=0&w=2&h=3",
+      "id": 72
     },
-    "The Enmity Divine": {
+    {
       "name": "The Enmity Divine",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Staves/Rage Staff.png?scale=1&scaleIndex=0&w=2&h=4"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Staves/Rage Staff.png?scale=1&scaleIndex=0&w=2&h=4",
+      "id": 73
     },
-    "The Unshattered Will": {
+    {
       "name": "The Unshattered Will",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/Channeling Shield.png?scale=1&scaleIndex=0&w=2&h=3"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/Channeling Shield.png?scale=1&scaleIndex=0&w=2&h=3",
+      "id": 74
     }
-  },
-  "Incursion (base items)": {
-    "Apep's Slumber": {
+  ],
+  "Incursion (base items)": [
+    {
       "name": "Apep's Slumber",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ApepsSlumber.png?scale=1&scaleIndex=0&w=2&h=2"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ApepsSlumber.png?scale=1&scaleIndex=0&w=2&h=2",
+      "id": 75
     },
-    "Architect's Hand": {
+    {
       "name": "Architect's Hand",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/ArchitectsHand.png?scale=1&scaleIndex=0&w=2&h=2"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/ArchitectsHand.png?scale=1&scaleIndex=0&w=2&h=2",
+      "id": 76
     },
-    "Coward's Chains": {
+    {
       "name": "Coward's Chains",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Belts/Coward's Chains.png?scale=1&scaleIndex=0&w=2&h=1"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Belts/Coward's Chains.png?scale=1&scaleIndex=0&w=2&h=1",
+      "id": 77
     },
-    "Dance of the Offered": {
+    {
       "name": "Dance of the Offered",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/DanceOfTheOffered.png?scale=1&scaleIndex=0&w=2&h=2"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/DanceOfTheOffered.png?scale=1&scaleIndex=0&w=2&h=2",
+      "id": 78
     },
-    "Mask of the Spirit Drinker": {
+    {
       "name": "Mask of the Spirit Drinker",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/MaskoftheSpiritDrinker.png?scale=1&scaleIndex=0&w=2&h=2"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/MaskoftheSpiritDrinker.png?scale=1&scaleIndex=0&w=2&h=2",
+      "id": 79
     },
-    "Sacrificial Heart": {
+    {
       "name": "Sacrificial Heart",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Amulets/Sacrificial_Heart.png?scale=1&scaleIndex=0&w=1&h=1"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Amulets/Sacrificial_Heart.png?scale=1&scaleIndex=0&w=1&h=1",
+      "id": 80
     },
-    "Soul Catcher": {
+    {
       "name": "Soul Catcher",
-      "icon": "https://web.poecdn.com/gen/image/WzksNCx7ImYiOiJBcnRcLzJESXRlbXNcL0ZsYXNrc1wvU291bENhdGNoZXIiLCJzcCI6MC42MDg1LCJybGMiOnRydWUsImxldmVsIjowfV0/63ef93bc68/Item.png"
+      "icon": "https://web.poecdn.com/gen/image/WzksNCx7ImYiOiJBcnRcLzJESXRlbXNcL0ZsYXNrc1wvU291bENhdGNoZXIiLCJzcCI6MC42MDg1LCJybGMiOnRydWUsImxldmVsIjowfV0/63ef93bc68/Item.png",
+      "id": 81
     },
-    "Story of the Vaal": {
+    {
       "name": "Story of the Vaal",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandSwords/StoryOfTheVaal.png?scale=1&scaleIndex=0&w=1&h=3"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandSwords/StoryOfTheVaal.png?scale=1&scaleIndex=0&w=1&h=3",
+      "id": 82
     },
-    "String of Servitude": {
+    {
       "name": "String of Servitude",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Belts/String_of_Servitude.png?scale=1&scaleIndex=0&w=2&h=1"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Belts/String_of_Servitude.png?scale=1&scaleIndex=0&w=2&h=1",
+      "id": 83
     },
-    "Tempered Flesh": {
+    {
       "name": "Tempered Flesh",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Jewels/TemperedRed.png?scale=1&scaleIndex=0&w=1&h=1"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Jewels/TemperedRed.png?scale=1&scaleIndex=0&w=1&h=1",
+      "id": 84
     },
-    "Tempered Mind": {
+    {
       "name": "Tempered Mind",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Jewels/TemperedBlue.png?scale=1&scaleIndex=0&w=1&h=1"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Jewels/TemperedBlue.png?scale=1&scaleIndex=0&w=1&h=1",
+      "id": 85
     },
-    "Tempered Spirit": {
+    {
       "name": "Tempered Spirit",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Jewels/TemperedGreen.png?scale=1&scaleIndex=0&w=1&h=1"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Jewels/TemperedGreen.png?scale=1&scaleIndex=0&w=1&h=1",
+      "id": 86
     }
-  },
-  "Incursion (upgraded items)": {
-    "Apep's Supremacy": {
+  ],
+  "Incursion (upgraded items)": [
+    {
       "name": "Apep's Supremacy",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ApepsSupremacy.png?scale=1&scaleIndex=0&w=2&h=2"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ApepsSupremacy.png?scale=1&scaleIndex=0&w=2&h=2",
+      "id": 87
     },
-    "Coward's Legacy": {
+    {
       "name": "Coward's Legacy",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Belts/Coward's Legacy.png?scale=1&scaleIndex=0&w=2&h=1"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Belts/Coward's Legacy.png?scale=1&scaleIndex=0&w=2&h=1",
+      "id": 88
     },
-    "Fate of the Vaal": {
+    {
       "name": "Fate of the Vaal",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandSwords/FateOfTheVaal.png?scale=1&scaleIndex=0&w=1&h=3"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandSwords/FateOfTheVaal.png?scale=1&scaleIndex=0&w=1&h=3",
+      "id": 89
     },
-    "Mask of the Stitched Demon": {
+    {
       "name": "Mask of the Stitched Demon",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/MaskoftheStitchedDemon.png?scale=1&scaleIndex=0&w=2&h=2"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/MaskoftheStitchedDemon.png?scale=1&scaleIndex=0&w=2&h=2",
+      "id": 90
     },
-    "Omeyocan": {
+    {
       "name": "Omeyocan",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/Omeyocan.png?scale=1&scaleIndex=0&w=2&h=2"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/Omeyocan.png?scale=1&scaleIndex=0&w=2&h=2",
+      "id": 91
     },
-    "Slavedriver's Hand": {
+    {
       "name": "Slavedriver's Hand",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/SlavedriversHand.png?scale=1&scaleIndex=0&w=2&h=2"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/SlavedriversHand.png?scale=1&scaleIndex=0&w=2&h=2",
+      "id": 92
     },
-    "Soul Ripper": {
+    {
       "name": "Soul Ripper",
-      "icon": "https://web.poecdn.com/gen/image/WzksNCx7ImYiOiJBcnRcLzJESXRlbXNcL0ZsYXNrc1wvU291bFJpcHBlciIsInNwIjowLjYwODUsImxldmVsIjowfV0,/febcd8d98c/Item.png"
+      "icon": "https://web.poecdn.com/gen/image/WzksNCx7ImYiOiJBcnRcLzJESXRlbXNcL0ZsYXNrc1wvU291bFJpcHBlciIsInNwIjowLjYwODUsImxldmVsIjowfV0,/febcd8d98c/Item.png",
+      "id": 93
     },
-    "Transcendent Flesh": {
+    {
       "name": "Transcendent Flesh",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Jewels/TranscendentRed.png?scale=1&scaleIndex=0&w=1&h=1"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Jewels/TranscendentRed.png?scale=1&scaleIndex=0&w=1&h=1",
+      "id": 94
     },
-    "Transcendent Mind": {
+    {
       "name": "Transcendent Mind",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Jewels/TranscendentBlue.png?scale=1&scaleIndex=0&w=1&h=1"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Jewels/TranscendentBlue.png?scale=1&scaleIndex=0&w=1&h=1",
+      "id": 95
     },
-    "Transcendent Spirit": {
+    {
       "name": "Transcendent Spirit",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Jewels/TranscendentGreen.png?scale=1&scaleIndex=0&w=1&h=1"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Jewels/TranscendentGreen.png?scale=1&scaleIndex=0&w=1&h=1",
+      "id": 96
     },
-    "Zerphi's Heart": {
+    {
       "name": "Zerphi's Heart",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Amulets/ZerphisHeart.png?scale=1&scaleIndex=0&w=1&h=1"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Amulets/ZerphisHeart.png?scale=1&scaleIndex=0&w=1&h=1",
+      "id": 97
     }
-  },
-  "Invasion/Ambush": {
-    "Vaal Caress": {
+  ],
+  "Invasion/Ambush": [
+    {
       "name": "Vaal Caress",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/VaalCaress.png?scale=1&scaleIndex=0&w=2&h=2"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/VaalCaress.png?scale=1&scaleIndex=0&w=2&h=2",
+      "id": 98
     },
-    "Voideye": {
+    {
       "name": "Voideye",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Rings/unused4.png?scale=1&scaleIndex=0&w=1&h=1"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Rings/unused4.png?scale=1&scaleIndex=0&w=1&h=1",
+      "id": 99
     }
-  },
-  "Abyss": {
-    "Bubonic Trail": {
+  ],
+  "Abyss": [
+    {
       "name": "Bubonic Trail",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/AbyssBoots.png?scale=1&scaleIndex=0&w=2&h=2"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/AbyssBoots.png?scale=1&scaleIndex=0&w=2&h=2",
+      "id": 100
     },
-    "Tombfist": {
+    {
       "name": "Tombfist",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/AbyssGloves.png?scale=1&scaleIndex=0&w=2&h=2"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/AbyssGloves.png?scale=1&scaleIndex=0&w=2&h=2",
+      "id": 101
     },
-    "Lightpoacher": {
+    {
       "name": "Lightpoacher",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/AbyssHelmet.png?scale=1&scaleIndex=0&w=2&h=2"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/AbyssHelmet.png?scale=1&scaleIndex=0&w=2&h=2",
+      "id": 102
     },
-    "Darkness Enthroned": {
+    {
       "name": "Darkness Enthroned",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Belts/DarknessEnthroned.png?scale=1&scaleIndex=0&w=2&h=1"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Belts/DarknessEnthroned.png?scale=1&scaleIndex=0&w=2&h=1",
+      "id": 103
     },
-    "Shroud of the Lightless": {
+    {
       "name": "Shroud of the Lightless",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/AbyssBody.png?scale=1&scaleIndex=0&w=2&h=3"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/AbyssBody.png?scale=1&scaleIndex=0&w=2&h=3",
+      "id": 104
     }
-  },
-  "Rampage": {
-    "Flesh and Spirit": {
+  ],
+  "Rampage": [
+    {
       "name": "Flesh and Spirit",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/FleshAndSpirit.png?scale=1&scaleIndex=0&w=2&h=2"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/FleshAndSpirit.png?scale=1&scaleIndex=0&w=2&h=2",
+      "id": 105
     },
-    "Null and Void": {
+    {
       "name": "Null and Void",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/NullAndVoid.png?scale=1&scaleIndex=0&w=2&h=2"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/NullAndVoid.png?scale=1&scaleIndex=0&w=2&h=2",
+      "id": 106
     },
-    "Shadows and Dust": {
+    {
       "name": "Shadows and Dust",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/ShadowsAndDust.png?scale=1&scaleIndex=0&w=2&h=2"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/ShadowsAndDust.png?scale=1&scaleIndex=0&w=2&h=2",
+      "id": 107
     }
-  },
-  "Tempest": {
-    "Trolltimber Spire": {
+  ],
+  "Tempest": [
+    {
       "name": "Trolltimber Spire",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldStrUnique3.png?scale=1&scaleIndex=0&w=2&h=4"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldStrUnique3.png?scale=1&scaleIndex=0&w=2&h=4",
+      "id": 108
     },
-    "Crown of the Pale King": {
+    {
       "name": "Crown of the Pale King",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/CrownofthePaleKing.png?scale=1&scaleIndex=0&w=2&h=2"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/CrownofthePaleKing.png?scale=1&scaleIndex=0&w=2&h=2",
+      "id": 109
     },
-    "Ylfeban's Trickery": {
+    {
       "name": "Ylfeban's Trickery",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/Ylfeban.png?scale=1&scaleIndex=0&w=2&h=2"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/Ylfeban.png?scale=1&scaleIndex=0&w=2&h=2",
+      "id": 110
     },
-    "Jorrhast's Blacksteel": {
+    {
       "name": "Jorrhast's Blacksteel",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandMaces/JorrhastsBlacksteel.png?scale=1&scaleIndex=0&w=2&h=4"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandMaces/JorrhastsBlacksteel.png?scale=1&scaleIndex=0&w=2&h=4",
+      "id": 111
     }
-  },
-  "Torment": {
-    "Brutus' Lead Sprinkler": {
+  ],
+  "Torment": [
+    {
       "name": "Brutus' Lead Sprinkler",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandMaces/TheLeadSprinkler.png?scale=1&scaleIndex=0&w=2&h=3"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandMaces/TheLeadSprinkler.png?scale=1&scaleIndex=0&w=2&h=3",
+      "id": 112
     },
-    "Scold's Bridle": {
+    {
       "name": "Scold's Bridle",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/ScoldsBridle.png?scale=1&scaleIndex=0&w=2&h=2"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/ScoldsBridle.png?scale=1&scaleIndex=0&w=2&h=2",
+      "id": 113
     },
-    "The Rat Cage": {
+    {
       "name": "The Rat Cage",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/TheRatCage.png?scale=1&scaleIndex=0&w=2&h=3"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/TheRatCage.png?scale=1&scaleIndex=0&w=2&h=3",
+      "id": 114
     }
-  },
-  "Warbands": {
-    "Brinerot Flag": {
+  ],
+  "Warbands": [
+    {
       "name": "Brinerot Flag",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/BrinerotFlag.png?scale=1&scaleIndex=0&w=2&h=2"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/BrinerotFlag.png?scale=1&scaleIndex=0&w=2&h=2",
+      "id": 115
     },
-    "Redblade Banner": {
+    {
       "name": "Redblade Banner",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/RedbladeBanner.png?scale=1&scaleIndex=0&w=2&h=4"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/RedbladeBanner.png?scale=1&scaleIndex=0&w=2&h=4",
+      "id": 116
     },
-    "Brinerot Whalers": {
+    {
       "name": "Brinerot Whalers",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/Reefscourge.png?scale=1&scaleIndex=0&w=2&h=2"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/Reefscourge.png?scale=1&scaleIndex=0&w=2&h=2",
+      "id": 117
     },
-    "Mutewind Pennant": {
+    {
       "name": "Mutewind Pennant",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/MutewindPennant.png?scale=1&scaleIndex=0&w=2&h=2"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/MutewindPennant.png?scale=1&scaleIndex=0&w=2&h=2",
+      "id": 118
     },
-    "Mutewind Whispersteps": {
+    {
       "name": "Mutewind Whispersteps",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/Targemtabi.png?scale=1&scaleIndex=0&w=2&h=2"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/Targemtabi.png?scale=1&scaleIndex=0&w=2&h=2",
+      "id": 119
     },
-    "Brinerot Mark": {
+    {
       "name": "Brinerot Mark",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Rings/Brinerot.png?scale=1&scaleIndex=0&w=1&h=1"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Rings/Brinerot.png?scale=1&scaleIndex=0&w=1&h=1",
+      "id": 120
     },
-    "Mutewind Seal": {
+    {
       "name": "Mutewind Seal",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Rings/Mutewind.png?scale=1&scaleIndex=0&w=1&h=1"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Rings/Mutewind.png?scale=1&scaleIndex=0&w=1&h=1",
+      "id": 121
     },
-    "Redblade Band": {
+    {
       "name": "Redblade Band",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Rings/Redblade.png?scale=1&scaleIndex=0&w=1&h=1"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Rings/Redblade.png?scale=1&scaleIndex=0&w=1&h=1",
+      "id": 122
     },
-    "Redblade Tramplers": {
+    {
       "name": "Redblade Tramplers",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/Rumblestep.png?scale=1&scaleIndex=0&w=2&h=2"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/Rumblestep.png?scale=1&scaleIndex=0&w=2&h=2",
+      "id": 123
     },
-    "The Pariah": {
+    {
       "name": "The Pariah",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Rings/ThePariah.png?scale=1&scaleIndex=0&w=1&h=1"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Rings/ThePariah.png?scale=1&scaleIndex=0&w=1&h=1",
+      "id": 124
     },
-    "Steppan Eard": {
+    {
       "name": "Steppan Eard",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/Assedaisfervor.png?scale=1&scaleIndex=0&w=2&h=2"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/Assedaisfervor.png?scale=1&scaleIndex=0&w=2&h=2",
+      "id": 125
     },
-    "Broken Faith": {
+    {
       "name": "Broken Faith",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/SantonisFaith.png?scale=1&scaleIndex=0&w=2&h=3"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/SantonisFaith.png?scale=1&scaleIndex=0&w=2&h=3",
+      "id": 126
     }
-  },
-  "Perandus": {
-    "Seven-League Step": {
+  ],
+  "Perandus": [
+    {
       "name": "Seven-League Step",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/BootsDexUnique3.png?scale=1&scaleIndex=0&w=2&h=2"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/BootsDexUnique3.png?scale=1&scaleIndex=0&w=2&h=2",
+      "id": 127
     },
-    "Zerphi's Last Breath": {
+    {
       "name": "Zerphi's Last Breath",
-      "icon": "https://web.poecdn.com/gen/image/WzksNCx7ImYiOiJBcnRcLzJESXRlbXNcL0ZsYXNrc1wvWmVycGhpc0xhc3RCcmVhdGgiLCJzcCI6MC42MDg1LCJybGMiOnRydWUsImxldmVsIjowfV0/f6b6b1f0cd/Item.png"
+      "icon": "https://web.poecdn.com/gen/image/WzksNCx7ImYiOiJBcnRcLzJESXRlbXNcL0ZsYXNrc1wvWmVycGhpc0xhc3RCcmVhdGgiLCJzcCI6MC42MDg1LCJybGMiOnRydWUsImxldmVsIjowfV0/f6b6b1f0cd/Item.png",
+      "id": 128
     },
-    "Umbilicus Immortalis": {
+    {
       "name": "Umbilicus Immortalis",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Belts/UmbilicusImmortalis.png?scale=1&scaleIndex=0&w=2&h=1"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Belts/UmbilicusImmortalis.png?scale=1&scaleIndex=0&w=2&h=1",
+      "id": 129
     },
-    "Trypanon": {
+    {
       "name": "Trypanon",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandMaces/Trypanon.png?scale=1&scaleIndex=0&w=2&h=4"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandMaces/Trypanon.png?scale=1&scaleIndex=0&w=2&h=4",
+      "id": 130
     },
-    "Varunastra": {
+    {
       "name": "Varunastra",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandSwords/Varunastra.png?scale=1&scaleIndex=0&w=2&h=3"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandSwords/Varunastra.png?scale=1&scaleIndex=0&w=2&h=3",
+      "id": 131
     }
-  },
-  "Prophecy": {
-    "The Ascetic": {
+  ],
+  "Prophecy": [
+    {
       "name": "The Ascetic",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Amulets/Amulet13.png?scale=1&scaleIndex=0&w=1&h=1"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Amulets/Amulet13.png?scale=1&scaleIndex=0&w=1&h=1",
+      "id": 132
     },
-    "Hinekora's Sight": {
+    {
       "name": "Hinekora's Sight",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Amulets/HinekorasSight.png?scale=1&scaleIndex=0&w=1&h=1"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Amulets/HinekorasSight.png?scale=1&scaleIndex=0&w=1&h=1",
+      "id": 133
     },
-    "Ascent From Flesh": {
+    {
       "name": "Ascent From Flesh",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Belts/Turncoatsfortune.png?scale=1&scaleIndex=0&w=2&h=1"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Belts/Turncoatsfortune.png?scale=1&scaleIndex=0&w=2&h=1",
+      "id": 134
     },
-    "Mind of the Council": {
+    {
       "name": "Mind of the Council",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/ThunderingWhispers.png?scale=1&scaleIndex=0&w=2&h=2"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/ThunderingWhispers.png?scale=1&scaleIndex=0&w=2&h=2",
+      "id": 135
     },
-    "Grip of the Council": {
+    {
       "name": "Grip of the Council",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/GlovesInt3Unique2.png?scale=1&scaleIndex=0&w=2&h=2"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/GlovesInt3Unique2.png?scale=1&scaleIndex=0&w=2&h=2",
+      "id": 136
     },
-    "Kintsugi": {
+    {
       "name": "Kintsugi",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/Kintsugi.png?scale=1&scaleIndex=0&w=2&h=3"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/Kintsugi.png?scale=1&scaleIndex=0&w=2&h=3",
+      "id": 137
     },
-    "Reach of the Council": {
+    {
       "name": "Reach of the Council",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Bows/BowOfTheCouncil.png?scale=1&scaleIndex=0&w=2&h=4"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Bows/BowOfTheCouncil.png?scale=1&scaleIndex=0&w=2&h=4",
+      "id": 138
     },
-    "Breath of the Council": {
+    {
       "name": "Breath of the Council",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Scepters/Plaguebringer.png?scale=1&scaleIndex=0&w=2&h=3"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Scepters/Plaguebringer.png?scale=1&scaleIndex=0&w=2&h=3",
+      "id": 139
     }
-  },
-  "Talisman": {
-    "Faminebind": {
+  ],
+  "Talisman": [
+    {
       "name": "Faminebind",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Belts/Faminebind.png?scale=1&scaleIndex=0&w=2&h=1"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Belts/Faminebind.png?scale=1&scaleIndex=0&w=2&h=1",
+      "id": 140
     },
-    "Feastbind": {
+    {
       "name": "Feastbind",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Belts/Feastbind.png?scale=1&scaleIndex=0&w=2&h=1"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Belts/Feastbind.png?scale=1&scaleIndex=0&w=2&h=1",
+      "id": 141
     },
-    "Rigwald's Command": {
+    {
       "name": "Rigwald's Command",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandSwords/RigwarlSword.png?scale=1&scaleIndex=0&w=2&h=3"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandSwords/RigwarlSword.png?scale=1&scaleIndex=0&w=2&h=3",
+      "id": 142
     },
-    "Rigwald's Crest": {
+    {
       "name": "Rigwald's Crest",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Rings/RigwaldsCrest.png?scale=1&scaleIndex=0&w=1&h=1"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Rings/RigwaldsCrest.png?scale=1&scaleIndex=0&w=1&h=1",
+      "id": 143
     },
-    "Rigwald's Quills": {
+    {
       "name": "Rigwald's Quills",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Quivers/RigwaldsQuills.png?scale=1&scaleIndex=0&w=2&h=3"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Quivers/RigwaldsQuills.png?scale=1&scaleIndex=0&w=2&h=3",
+      "id": 144
     },
-    "Rigwald's Savagery": {
+    {
       "name": "Rigwald's Savagery",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandAxes/RigwarlAxe.png?scale=1&scaleIndex=0&w=2&h=3"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandAxes/RigwarlAxe.png?scale=1&scaleIndex=0&w=2&h=3",
+      "id": 145
     },
-    "Night's Hold": {
+    {
       "name": "Night's Hold",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Amulets/SocketedTalisman.png?scale=1&scaleIndex=0&w=1&h=1"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Amulets/SocketedTalisman.png?scale=1&scaleIndex=0&w=1&h=1",
+      "id": 146
     },
-    "Blightwell": {
+    {
       "name": "Blightwell",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Amulets/TaintedSprings.png?scale=1&scaleIndex=0&w=1&h=1"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Amulets/TaintedSprings.png?scale=1&scaleIndex=0&w=1&h=1",
+      "id": 147
     },
-    "Rigwald's Curse": {
+    {
       "name": "Rigwald's Curse",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Amulets/UniqueDireClawTalisman.png?scale=1&scaleIndex=0&w=1&h=1"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Amulets/UniqueDireClawTalisman.png?scale=1&scaleIndex=0&w=1&h=1",
+      "id": 148
     },
-    "Natural Hierarchy": {
+    {
       "name": "Natural Hierarchy",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Amulets/TalismanUnique2.png?scale=1&scaleIndex=0&w=1&h=1"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Amulets/TalismanUnique2.png?scale=1&scaleIndex=0&w=1&h=1",
+      "id": 149
     },
-    "Eyes of the Greatwolf": {
+    {
       "name": "Eyes of the Greatwolf",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Amulets/RigwaldsTalisman.png?scale=1&scaleIndex=0&w=1&h=1"
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Amulets/RigwaldsTalisman.png?scale=1&scaleIndex=0&w=1&h=1",
+      "id": 150
     }
-  }
+  ]
 }
