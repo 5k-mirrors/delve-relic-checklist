@@ -12,9 +12,18 @@ class List extends React.Component {
     ? JSON.parse(localStorage.getItem("checklist"))
     : [];
 
+    let groups = {};
+    for (let group in relics) {
+      groups[group] = [];
+    }
+    let groupCheckLists = localStorage.hasOwnProperty("groupchecklists")
+    ? JSON.parse(localStorage.getItem("groupchecklists"))
+    : groups;
+
     this.state = {
       hideAquired: false,
-      checklist: checkList
+      checklist: checkList,
+      groupCheckLists: groupCheckLists
     };
 
     this.handleClick = this.handleClick.bind(this);
@@ -24,6 +33,24 @@ class List extends React.Component {
     let checklist = this.state.checklist;
     if (!this.state.checklist.includes(relicName)) checklist.push(relicName);
     else checklist.splice(checklist.indexOf(relicName), 1);
+
+    let groupCheckLists = this.state.groupCheckLists;
+    let category;
+    for (let c in relics) {
+      for (let relic in relics[c]) {
+        if (relics[c][relic].name == relicName) {
+          category = c;
+          break;
+        }
+      }
+      if (category) {
+        if (!this.state.groupCheckLists[category].includes(relicName)) groupCheckLists[category].push(relicName);
+        else groupCheckLists[category].splice(groupCheckLists[category].indexOf(relicName), 1);
+        break;
+      }
+    }
+
+    localStorage.setItem("groupCheckLists", JSON.stringify(groupCheckLists));
     localStorage.setItem("checklist", JSON.stringify(checklist));
     this.setState({checklist: checklist});
   }
@@ -32,7 +59,7 @@ class List extends React.Component {
     let listItems = Object.keys(relics).map(category => {
       return (
         <div className="checklist">
-          <h2>{category}</h2>
+          <h2>{category} ({this.state.groupCheckLists[category].length}/{relics[category].length})</h2>
           <div className="list">
             {Object.keys(relics[category]).map(relic => (
               <ListItem
@@ -49,7 +76,7 @@ class List extends React.Component {
     });
     return (
       <div>
-        <h2>{this.state.checklist.length} / 151</h2>
+        <h2>{this.state.checklist.length} / 152</h2>
         <label><strong><input type="checkbox" onChange={e => this.setState({hideAquired: !this.state.hideAquired})}/> Hide aquired relics</strong></label>
         <div className="containter">
           {listItems}
