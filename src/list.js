@@ -4,22 +4,26 @@ import './styles.css';
 import relics from '../relics.json';
 import ListItem from './listitem';
 
-import { addUrlProps, UrlQueryParamTypes, decode } from 'react-url-query';
+import { addUrlProps, UrlQueryParamTypes, decode, encode, replaceInUrlQuery  } from 'react-url-query';
 import { configureUrlQuery } from 'react-url-query';
 import createHistory from 'history/createBrowserHistory';
+
+const LZString = require('lz-string');
 
 const history = createHistory();
 configureUrlQuery({ history });
 
-const urlPropsQueryConfig = {
-  items: { type: UrlQueryParamTypes.array },
-};
-
 function mapUrlToProps(url, props) {
   return {
-    items: decode(UrlQueryParamTypes.string, url.items)
+    items: url.items ? decode(UrlQueryParamTypes.array, LZString.decompressFromEncodedURIComponent(url.items)) : decode(UrlQueryParamTypes.array, url.items)
   };
-}
+};
+
+function mapUrlChangeHandlersToProps(props) {
+  return {
+    onChangeItems: (value) => replaceInUrlQuery('items', LZString.compressToEncodedURIComponent(encode(UrlQueryParamTypes.array, value))),
+  };
+};
 
 class List extends React.Component {
   constructor(props) {
@@ -30,7 +34,7 @@ class List extends React.Component {
     : [];
 
     if (this.props.items) {
-      checkList = this.props.items.split(',');
+      checkList = this.props.items.map(i => parseInt(i, 10));
     }
 
     this.sumOfRelics = 0;
@@ -48,7 +52,6 @@ class List extends React.Component {
 
   handleClick(relicId) {
     let checklist = this.state.checklist;
-    let currentUrl = this.state.link;
     if (!this.state.checklist.includes(relicId)) checklist.push(relicId);
     else checklist.splice(checklist.indexOf(relicId), 1);
     this.props.onChangeItems(checklist);
@@ -65,7 +68,7 @@ class List extends React.Component {
             {Object.keys(relics[category]).map(relic => (
               <ListItem
                 onClick={this.handleClick}
-                checked={this.state.checklist.includes(relics[category][relic].name)}
+                checked={this.state.checklist.includes(relics[category][relic].id)}
                 hideAquired={this.state.hideAquired}
                 relicIcon={relics[category][relic].icon}
                 relicName={relics[category][relic].name}
@@ -89,4 +92,4 @@ class List extends React.Component {
   }
 }
 
-export default addUrlProps({ urlPropsQueryConfig, mapUrlToProps })(List);
+export default addUrlProps({ mapUrlToProps, mapUrlChangeHandlersToProps })(List);
