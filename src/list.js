@@ -8,18 +8,20 @@ import { addUrlProps, UrlQueryParamTypes, decode, encode, replaceInUrlQuery  } f
 import { configureUrlQuery } from 'react-url-query';
 import createHistory from 'history/createBrowserHistory';
 
+let LZString = require('lz-string');
+
 const history = createHistory();
 configureUrlQuery({ history });
 
 function mapUrlToProps(url, props) {
   return {
-    items: url.items ? decode(UrlQueryParamTypes.array, atob(url.items)) : decode(UrlQueryParamTypes.array, url.items)
+    items: url.items ? decode(UrlQueryParamTypes.array, LZString.decompressFromEncodedURIComponent(url.items)) : decode(UrlQueryParamTypes.array, url.items)
   };
 };
 
 function mapUrlChangeHandlersToProps(props) {
   return {
-    onChangeItems: (value) => replaceInUrlQuery('items', btoa(encode(UrlQueryParamTypes.array, value))),
+    onChangeItems: (value) => replaceInUrlQuery('items', LZString.compressToEncodedURIComponent(encode(UrlQueryParamTypes.array, value))),
   };
 };
 
