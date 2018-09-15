@@ -65,3 +65,10 @@ input[type="checkbox"] {
 .links a:last-child::after {
   content: "";
 }
+
+.logo {
+  position: absolute;
+  margin: 0;
+  left: 0;
+  top: 0;
+}
