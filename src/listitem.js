@@ -9,11 +9,12 @@ class ListItem extends React.Component {
 
     this.relicName = props.relicName;
     this.relicIcon = props.relicIcon;
+    this.id = props.id;
   }
 
   handleClick() {
     this.setState({checked: !this.state.checked});
-    this.props.onClick(this.relicName);
+    this.props.onClick(this.id);
   }
 
   render() {

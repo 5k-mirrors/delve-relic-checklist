@@ -772,11 +772,6 @@
       "id": 145
     },
     {
-      "name": "Night's Hold",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Amulets/SocketedTalisman.png?scale=1&scaleIndex=0&w=1&h=1",
-      "id": 146
-    },
-    {
       "name": "Blightwell",
       "icon": "https://web.poecdn.com/image/Art/2DItems/Amulets/TaintedSprings.png?scale=1&scaleIndex=0&w=1&h=1",
       "id": 147
@@ -785,11 +780,6 @@
       "name": "Rigwald's Curse",
       "icon": "https://web.poecdn.com/image/Art/2DItems/Amulets/UniqueDireClawTalisman.png?scale=1&scaleIndex=0&w=1&h=1",
       "id": 148
-    },
-    {
-      "name": "Natural Hierarchy",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Amulets/TalismanUnique2.png?scale=1&scaleIndex=0&w=1&h=1",
-      "id": 149
     },
     {
       "name": "Eyes of the Greatwolf",
