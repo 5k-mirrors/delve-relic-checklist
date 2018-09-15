@@ -5,7 +5,8 @@
             "module-resolver", {
                 "alias": {
                     "githubBadge": "./public/githubBadge.svg",
-                    "orgLogo": "./public/orgLogo.png"
+                    "orgLogo": "./public/orgLogo.png",
+                    "favicon": "./public/favicon.ico"
                 }
             }
         ]

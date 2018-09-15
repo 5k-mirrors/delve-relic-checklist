@@ -44,6 +44,7 @@
     "history": "^4.7.2",
     "json-loader": "^0.5.7",
     "lz-string": "^1.4.4",
+    "react-favicon": "0.0.14",
     "react-url-query": "^1.4.0"
   }
 }
