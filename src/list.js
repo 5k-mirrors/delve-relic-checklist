@@ -65,7 +65,7 @@ class List extends React.Component {
             {Object.keys(relics[category]).map(relic => (
               <ListItem
                 onClick={this.handleClick}
-                checked={this.state.checklist.includes(relics[category][relic].name)}
+                checked={this.state.checklist.includes(relics[category][relic].id)}
                 hideAquired={this.state.hideAquired}
                 relicIcon={relics[category][relic].icon}
                 relicName={relics[category][relic].name}
