@@ -13,14 +13,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Kexort/relic-checklist.git"
+    "url": "git+https://github.com/5k-mirrors/relic-checklist.git"
   },
-  "author": "Kexort",
+  "author": "5k-mirrors",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Kexort/relic-checklist/issues"
+    "url": "https://github.com/5k-mirrors/relic-checklist/issues"
   },
-  "homepage": "https://github.com/Kexort/relic-checklist#readme",
+  "homepage": "https://github.com/5k-mirrors/relic-checklist#readme",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
@@ -41,6 +41,7 @@
   "dependencies": {
     "history": "^4.7.2",
     "json-loader": "^0.5.7",
+    "lz-string": "^1.4.4",
     "react-url-query": "^1.4.0"
   }
 }
