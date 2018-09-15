@@ -8,7 +8,7 @@ import { addUrlProps, UrlQueryParamTypes, decode, encode, replaceInUrlQuery  } f
 import { configureUrlQuery } from 'react-url-query';
 import createHistory from 'history/createBrowserHistory';
 
-let LZString = require('lz-string');
+const LZString = require('lz-string');
 
 const history = createHistory();
 configureUrlQuery({ history });
