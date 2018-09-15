@@ -34,8 +34,8 @@ class List extends React.Component {
     }
 
     this.sumOfRelics = 0;
-    for (let relicKey in relics) {
-      this.sumOfRelics += Object.keys(relics[relicKey]).length;
+    for (let category in relics) {
+      this.sumOfRelics += Object.keys(relics[category]).length;
     }
 
     this.state = {
@@ -46,11 +46,11 @@ class List extends React.Component {
     this.handleClick = this.handleClick.bind(this);
   }
 
-  handleClick(relicName) {
+  handleClick(relicId) {
     let checklist = this.state.checklist;
     let currentUrl = this.state.link;
-    if (!this.state.checklist.includes(relicName)) checklist.push(relicName);
-    else checklist.splice(checklist.indexOf(relicName), 1);
+    if (!this.state.checklist.includes(relicId)) checklist.push(relicId);
+    else checklist.splice(checklist.indexOf(relicId), 1);
     this.props.onChangeItems(checklist);
     localStorage.setItem("checklist", JSON.stringify(checklist));
     this.setState({checklist: checklist});
@@ -70,6 +70,7 @@ class List extends React.Component {
                 relicIcon={relics[category][relic].icon}
                 relicName={relics[category][relic].name}
                 key={relics[category][relic].id}
+                id={relics[category][relic].id}
               />
             ))}
           </div>
