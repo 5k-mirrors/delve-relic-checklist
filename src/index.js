@@ -6,7 +6,7 @@ import List from './list';
 import GithubLinks from './GithubLinks/githubLinks';
 import Logo from './logo/logo';
 import Favicon from 'react-favicon';
-import favicon from 'favicon';
+import FacivonLogo from 'Favicon';
 
 class App extends React.Component {
   constructor(){
@@ -17,9 +17,8 @@ class App extends React.Component {
     return (
       <div>
         <div>
-          <Favicon url={favicon}/>
+          <Favicon url={FacivonLogo}/>
         </div>
-
         <div className="App">
           <Logo />
           <h1>PoE Relic Checklist</h1>

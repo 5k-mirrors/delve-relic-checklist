@@ -4,9 +4,9 @@
         [
             "module-resolver", {
                 "alias": {
-                    "githubBadge": "./public/githubBadge.svg",
-                    "orgLogo": "./public/orgLogo.png",
-                    "favicon": "./public/favicon.png"
+                    "GithubBadge": "./public/githubBadge.svg",
+                    "OrgLogo": "./public/orgLogo.png",
+                    "Favicon": "./public/favicon.png"
                 }
             }
         ]
