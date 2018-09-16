@@ -6,7 +6,7 @@
                 "alias": {
                     "githubBadge": "./public/githubBadge.svg",
                     "orgLogo": "./public/orgLogo.png",
-                    "favicon": "./public/favicon.ico"
+                    "favicon": "./public/favicon.png"
                 }
             }
         ]
