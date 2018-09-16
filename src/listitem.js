@@ -34,6 +34,7 @@ class ListItem extends React.Component {
             checked={this.state.checked}
             type="checkbox"
             onClick={this.handleClick.bind(this)}
+            readOnly
           />
           &nbsp;{this.relicName}
         </label>
