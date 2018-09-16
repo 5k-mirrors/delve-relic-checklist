@@ -12,6 +12,12 @@ class ListItem extends React.Component {
     this.id = props.id;
   }
 
+  componentWillReceiveProps(nextProps) {
+    this.setState({
+      checked: nextProps.checked
+    });
+  }
+
   handleClick() {
     this.setState({checked: !this.state.checked});
     this.props.onClick(this.id);

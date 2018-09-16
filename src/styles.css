@@ -73,3 +73,8 @@ input[type="checkbox"] {
   top: 0;
   width: 100px;
 }
+
+.clearButton {
+  padding: 5px 25px;
+  margin: 10px;
+}

@@ -48,15 +48,23 @@ class List extends React.Component {
     };
 
     this.handleClick = this.handleClick.bind(this);
+    this.clearState = this.clearState.bind(this);
   }
 
   handleClick(relicId) {
     let checklist = this.state.checklist;
-    if (!this.state.checklist.includes(relicId)) checklist.push(relicId);
+    if (!checklist.includes(relicId)) checklist.push(relicId);
     else checklist.splice(checklist.indexOf(relicId), 1);
     this.props.onChangeItems(checklist);
     localStorage.setItem("checklist", JSON.stringify(checklist));
     this.setState({checklist: checklist});
+  }
+
+  clearState() {
+    localStorage.removeItem('checklist');
+    this.setState({
+      checklist: []
+    }, () => this.props.onChangeItems(this.state.checklist));
   }
 
   render() {
@@ -82,7 +90,10 @@ class List extends React.Component {
     });
     return (
       <div>
-        <h2>{this.state.checklist.length} / {this.sumOfRelics}</h2>
+        <h2>
+          {this.state.checklist.length} / {this.sumOfRelics}
+          <button type="button" onClick={this.clearState} className="clearButton">Clear</button>
+        </h2>
         <label><strong><input type="checkbox" onChange={e => this.setState({hideAquired: !this.state.hideAquired})}/> Hide aquired relics</strong></label>
         <div className="containter">
           {listItems}
