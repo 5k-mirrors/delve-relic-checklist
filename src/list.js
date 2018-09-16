@@ -60,7 +60,7 @@ class List extends React.Component {
     this.setState({checklist: checklist});
   }
 
-  clearChecklistAndLocalStorage() {
+  clearState() {
     localStorage.removeItem('checklist');
     this.setState({
       checklist: []
@@ -92,7 +92,7 @@ class List extends React.Component {
       <div>
         <h2>
           {this.state.checklist.length} / {this.sumOfRelics}
-          <button type="button" onClick={this.clearChecklistAndLocalStorage} className="clearButton">Clear</button>
+          <button type="button" onClick={this.clearState} className="clearButton">Clear</button>
         </h2>
         <label><strong><input type="checkbox" onChange={e => this.setState({hideAquired: !this.state.hideAquired})}/> Hide aquired relics</strong></label>
         <div className="containter">
