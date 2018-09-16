@@ -50,3 +50,27 @@ input[type="checkbox"] {
   font-family: sans-serif;
   text-align: center;
 }
+
+.links a {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+
+.links a::after {
+  content: "|";
+  margin: 10px;
+}
+
+.links a:last-child::after {
+  content: "";
+}
+
+.logo {
+  position: absolute;
+  margin: 0;
+  left: 0;
+  top: 0;
+  width: 100px;
+  z-index: -1;
+}
