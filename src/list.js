@@ -48,7 +48,7 @@ class List extends React.Component {
     };
 
     this.handleClick = this.handleClick.bind(this);
-    this.clearChecklistAndLocalStorage = this.clearChecklistAndLocalStorage.bind(this);
+    this.clearState = this.clearState.bind(this);
   }
 
   handleClick(relicId) {
