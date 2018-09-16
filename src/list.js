@@ -62,7 +62,7 @@ class List extends React.Component {
   render() {
     let listItems = Object.keys(relics).map(category => {
       return (
-        <div className="checklist">
+        <div className="checklist" key={category}>
           <h2>{category}</h2>
           <div className="list">
             {Object.keys(relics[category]).map(relic => (
