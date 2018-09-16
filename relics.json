@@ -343,6 +343,11 @@
       "id": 64
     },
     {
+      "name": "The Taming",
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Rings/TheTaming.png?scale=1&scaleIndex=0&w=1&h=1",
+      "id": 151
+    },
+    {
       "name": "Blood of the Karui",
       "icon": "https://web.poecdn.com/gen/image/WzksNCx7ImYiOiJBcnRcLzJESXRlbXNcL0ZsYXNrc1wvQmxvb2RPZlRoZUthcnVpIiwic3AiOjAuNjA4NSwicmxjIjp0cnVlLCJsZXZlbCI6MH1d/9cd154fc63/Item.png",
       "id": 65
@@ -467,11 +472,6 @@
       "name": "Coward's Legacy",
       "icon": "https://web.poecdn.com/image/Art/2DItems/Belts/Coward's Legacy.png?scale=1&scaleIndex=0&w=2&h=1",
       "id": 88
-    },
-    {
-      "name": "Fate of the Vaal",
-      "icon": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandSwords/FateOfTheVaal.png?scale=1&scaleIndex=0&w=1&h=3",
-      "id": 89
     },
     {
       "name": "Mask of the Stitched Demon",
