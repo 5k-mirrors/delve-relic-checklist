@@ -62,15 +62,29 @@ input[type="checkbox"] {
   text-align: center;
 }
 
+.links {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 15px 20px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
+  width: 500px;
+  margin: 0 auto;
+}
+
 .links a {
   text-decoration: none;
   font-weight: bold;
   color: #fff;
-  background: rgba(0, 0, 0, 0.5);
   margin: 3px;
-  padding: 15px 20px;
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  border-radius: 5px;
+}
+
+.links a::after {
+  content: "|";
+  margin: 5px;
+}
+
+.links a:last-child::after {
+  content: "";
 }
 
 .logo {
@@ -83,13 +97,12 @@ input[type="checkbox"] {
 }
 
 .clearButton {
-  margin: 10px;
   background: yellow;
 }
 
 .transparent-tile {
   background: rgba(0, 0, 0, 0.5);
-  margin: 40px 0;
+  margin: 10px 15px 25px 0;
   padding: 15px 20px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 5px;
