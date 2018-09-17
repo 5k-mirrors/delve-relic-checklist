@@ -31,7 +31,7 @@ function mapUrlChangeHandlersToProps(props) {
 
 const StyledButton = withStyles({
   root: {
-    background: 'linear-gradient(45deg, #b20808 30%, #ba1818 90%)',
+    background: 'linear-gradient(45deg, rgba(209, 73, 73, 0.8) 30%, rgba(204, 91, 91, 0.8) 90%)',
     borderRadius: 3,
     border: 0,
     color: 'white',
@@ -114,7 +114,6 @@ class List extends React.Component {
            {this.state.checklist.length} / {this.sumOfRelics}
           </h3>
           <StyledButton variant="contained" onClick={this.clearChecklistAndLocalStorage} color="secondary">
-             Clear
              <DeleteIcon />
            </StyledButton>
         </div>
