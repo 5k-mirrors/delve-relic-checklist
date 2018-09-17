@@ -5,7 +5,8 @@
             "module-resolver", {
                 "alias": {
                     "OrgLogo": "./public/orgLogo.png",
-                    "Favicon": "./public/favicon.png"
+                    "Favicon": "./public/favicon.png",
+                    "DelveBG": "./public/delvebg.jpg"
                 }
             }
         ]
