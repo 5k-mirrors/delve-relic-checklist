@@ -94,7 +94,7 @@ class List extends React.Component {
           {this.state.checklist.length} / {this.sumOfRelics}
           <button type="button" onClick={this.clearChecklistAndLocalStorage} className="clearButton">Clear</button>
         </h2>
-        <label><strong><input type="checkbox" onChange={e => this.setState({hideAquired: !this.state.hideAquired})}/> Hide aquired relics</strong></label>
+        <label className="acquired"><strong><input type="checkbox" onChange={e => this.setState({hideAquired: !this.state.hideAquired})}/> Hide aquired relics</strong></label>
         <div className="containter">
           {listItems}
         </div>

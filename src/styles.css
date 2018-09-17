@@ -51,6 +51,7 @@ input[type="checkbox"] {
   -moz-column-width: 300px;
   -webkit-column-width: 300px;
   column-width: 300px;
+  margin-top: 30px;
 }
 
 .App {
@@ -62,15 +63,10 @@ input[type="checkbox"] {
   text-decoration: none;
   font-weight: bold;
   color: #fff;
-}
-
-.links a::after {
-  content: "|";
-  margin: 10px;
-}
-
-.links a:last-child::after {
-  content: "";
+  background: rgba(0, 0, 0, 0.5);
+  margin: 3px;
+  padding: 15px 20px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 .logo {
@@ -85,4 +81,11 @@ input[type="checkbox"] {
 .clearButton {
   padding: 5px 25px;
   margin: 10px;
+}
+
+.acquired {
+  background: rgba(0, 0, 0, 0.5);
+  margin: 40px 0;
+  padding: 15px 20px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
 }
