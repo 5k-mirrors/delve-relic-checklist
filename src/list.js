@@ -37,6 +37,7 @@ const StyledButton = withStyles({
     color: 'white',
     height: 48,
     padding: '0 20px',
+    margin: '10px',
     boxShadow: '0 3px 5px 2px rgba(255, 105, 135, .3)',
   },
   label: {
@@ -111,7 +112,7 @@ class List extends React.Component {
       <div>
         <h2>
           {this.state.checklist.length} / {this.sumOfRelics}
-          <StyledButton variant="contained" onClick={this.clearChecklistAndLocalStorage} color="secondary" style={{margin: '10px'}}>
+          <StyledButton variant="contained" onClick={this.clearChecklistAndLocalStorage} color="secondary">
             Clear
             <DeleteIcon />
           </StyledButton>

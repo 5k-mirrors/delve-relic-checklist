@@ -31,7 +31,7 @@ body {
 }
 
 .checked {
-  background-color: #00a8ff;
+  background-color: rgba(22, 160, 133, 0.6);
 }
 
 input[type="checkbox"] {
@@ -45,6 +45,9 @@ input[type="checkbox"] {
 .checklist {
   display: inline-block;
   width: 300px;
+  border: 0.8px solid rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
+  margin-bottom: 30px;
 }
 
 .containter {
@@ -67,6 +70,7 @@ input[type="checkbox"] {
   margin: 3px;
   padding: 15px 20px;
   border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
 }
 
 .logo {
@@ -88,4 +92,5 @@ input[type="checkbox"] {
   margin: 40px 0;
   padding: 15px 20px;
   border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
 }
