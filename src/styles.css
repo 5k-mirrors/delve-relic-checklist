@@ -79,8 +79,8 @@ input[type="checkbox"] {
 }
 
 .clearButton {
-  padding: 5px 25px;
   margin: 10px;
+  background: yellow;
 }
 
 .acquired {

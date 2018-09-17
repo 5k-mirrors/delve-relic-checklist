@@ -8,6 +8,10 @@ import { addUrlProps, UrlQueryParamTypes, decode, encode, replaceInUrlQuery  } f
 import { configureUrlQuery } from 'react-url-query';
 import createHistory from 'history/createBrowserHistory';
 
+import Button from '@material-ui/core/Button';
+import DeleteIcon from '@material-ui/icons/Delete';
+import { withStyles } from '@material-ui/core/styles';
+
 const LZString = require('lz-string');
 
 const history = createHistory();
@@ -24,6 +28,21 @@ function mapUrlChangeHandlersToProps(props) {
     onChangeItems: (value) => replaceInUrlQuery('items', LZString.compressToEncodedURIComponent(encode(UrlQueryParamTypes.array, value))),
   };
 };
+
+const StyledButton = withStyles({
+  root: {
+    background: 'linear-gradient(45deg, #b20808 30%, #ba1818 90%)',
+    borderRadius: 3,
+    border: 0,
+    color: 'white',
+    height: 48,
+    padding: '0 20px',
+    boxShadow: '0 3px 5px 2px rgba(255, 105, 135, .3)',
+  },
+  label: {
+    textTransform: 'capitalize',
+  },
+})(Button);
 
 class List extends React.Component {
   constructor(props) {
@@ -92,7 +111,10 @@ class List extends React.Component {
       <div>
         <h2>
           {this.state.checklist.length} / {this.sumOfRelics}
-          <button type="button" onClick={this.clearChecklistAndLocalStorage} className="clearButton">Clear</button>
+          <StyledButton variant="contained" onClick={this.clearChecklistAndLocalStorage} color="secondary" style={{margin: '10px'}}>
+            Clear
+            <DeleteIcon />
+          </StyledButton>
         </h2>
         <label className="acquired"><strong><input type="checkbox" onChange={e => this.setState({hideAquired: !this.state.hideAquired})}/> Hide aquired relics</strong></label>
         <div className="containter">
