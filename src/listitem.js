@@ -26,7 +26,7 @@ class ListItem extends React.Component {
   render() {
     return (
       (!this.props.hideAquired || !this.state.checked) && <div className={ this.state.checked ? "checked" : ""}>
-        <label className="row">
+        <label className="row" onClick={this.handleClick.bind(this)}>
           <div className="imgcontainer">
             <img
               className="icon"
@@ -36,12 +36,6 @@ class ListItem extends React.Component {
               }
             />
           </div>
-          <input
-            checked={this.state.checked}
-            type="checkbox"
-            onClick={this.handleClick.bind(this)}
-            readOnly
-          />
           &nbsp;{this.relicName}
         </label>
       </div>
