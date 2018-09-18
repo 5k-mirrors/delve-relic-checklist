@@ -5,8 +5,9 @@ import "./styles.css";
 import List from './list';
 import GithubLinks from './GithubLinks/githubLinks';
 import Logo from './logo/logo';
-import Favicon from 'react-favicon';
-import favicon from 'favicon';
+import Favicon from 'Favicon';
+import DelveBG from 'DelveBG';
+import { Helmet } from 'react-helmet';
 
 class App extends React.Component {
   constructor(){
@@ -17,9 +18,12 @@ class App extends React.Component {
     return (
       <div>
         <div>
-          <Favicon url={favicon}/>
+          <Helmet>
+            <link rel="icon" href={Favicon} type="image/png" sizes="16x16" />
+            <body background={DelveBG}>
+            </body>
+          </Helmet>
         </div>
-
         <div className="App">
           <Logo />
           <h1>PoE Relic Checklist</h1>
