@@ -3,6 +3,7 @@ body {
   height: 100%;
   color: #fff;
   background-repeat: repeat-y;
+  overflow-x:hidden;
 }
 
 .checklist {
