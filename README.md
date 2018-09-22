@@ -5,7 +5,7 @@ Checklist / tracker for Relics in [Path of Exile](https://www.pathofexile.com/) 
 ## Saving / sharing
 Your list will be remembered by your browser. You can use the URL to share, export or import your list.
 
-## Items
+## Relics
 Initial list of uniques were gathered in this [reddit](https://old.reddit.com/r/pathofexile/comments/97gmte/actual_list_of_151_reliquary_items/) post. Updates:
 - `The Retch` cannot be produced as relic
 - `The Taming` can be produced as relic
