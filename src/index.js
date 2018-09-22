@@ -4,6 +4,7 @@ import ReactDOM from "react-dom";
 import "./styles.css";
 import List from './list';
 import GithubLinks from './GithubLinks/githubLinks';
+import Footer from './Footer/footer';
 import Logo from './logo/logo';
 import Favicon from 'Favicon';
 import DelveBG from 'DelveBG';
@@ -29,6 +30,7 @@ class App extends React.Component {
           <h1>PoE Relic Checklist</h1>
           <GithubLinks />
           <List />
+          <Footer />
         </div>
       </div>
     );

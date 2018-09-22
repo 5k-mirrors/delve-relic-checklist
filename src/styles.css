@@ -63,29 +63,19 @@ input[type="checkbox"] {
   text-align: center;
 }
 
-.links {
-  background: rgba(0, 0, 0, 0.5);
-  padding: 15px 20px;
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  border-radius: 5px;
-  width: 500px;
-  margin: 0 auto;
-}
-
-.links a {
+.transparent-tile a {
   text-decoration: none;
   font-weight: bold;
   color: #fff;
-  margin: 3px;
 }
 
-.links a::after {
-  content: "|";
-  margin: 5px;
+.tileItem {
+  border-right: 0.05em solid white;
+  padding: 0.5em;
 }
 
-.links a:last-child::after {
-  content: "";
+.tileItem:last-child {
+  border-right: none;
 }
 
 .logo {
@@ -102,12 +92,9 @@ input[type="checkbox"] {
 
 .transparent-tile {
   background: rgba(0, 0, 0, 0.5);
-  margin: 10px 15px 25px 0;
+  margin: 10px 10px 10px 0;
   padding: 15px 20px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 5px;
-}
-
-.counter {
-  display: inline-block;
+  display: inline-flex;
 }
