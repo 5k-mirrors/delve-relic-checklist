@@ -1,18 +1,15 @@
-# PoE Relic Checklist
+# Delve Relic Checklist
 
-This is a checklist for relic collectors in the Delve league.
-Unique names are from [reddit](https://old.reddit.com/r/pathofexile/comments/97gmte/actual_list_of_151_reliquary_items/), thanks for /u/BongJuan
+Checklist / tracker for Relics in [Path of Exile](https://www.pathofexile.com/) Delve league: https://5k-mirrors.github.io/relic-checklist/
 
-The tool saves the list to the local storage, so it won't disappear if the tab or the browser closed.
+## Saving / sharing
+Your list will be remembered by your browser. You can use the URL to share, export or import your list.
 
-If the list is missing a relic please file an issue [here](https://github.com/Kexort/poe-relic-checklist/issues).
+## Relics
+Initial list of uniques were gathered in this [reddit](https://old.reddit.com/r/pathofexile/comments/97gmte/actual_list_of_151_reliquary_items/) post. Updates:
+- `The Retch` cannot be produced as relic
+- `The Taming` can be produced as relic
+- There are no relic maps
+- The following relics don't seem to drop: `Fate of the Vaal`, `Night's Hold`, `Natural Hierarchy`. Reasons are unknown, suspected bug ([1](https://www.reddit.com/r/pathofexile/comments/9ejqeu/bugged_there_are_0_fate_of_the_vaal_sword_opened/), [2](https://www.pathofexile.com/forum/view-thread/2214627/page/1#p15802185))
 
-## TODO:
-
-- [ ] Load aquired relics from stash tabs
-- [x] Counter
-- [x] Hide aquired relics
-- [ ] link 
-- [ ] UI redesign
-- [ ] rearrange relics.json structure
-- [ ] refactor
+This puts the current count at a round 150. Have fun collecting exiles!
