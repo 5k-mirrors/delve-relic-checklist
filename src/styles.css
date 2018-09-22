@@ -98,8 +98,3 @@ input[type="checkbox"] {
   border-radius: 5px;
   display: inline-flex;
 }
-
-.counter {
-  display: inline-flex;
-  flex-direction: row;
-}
