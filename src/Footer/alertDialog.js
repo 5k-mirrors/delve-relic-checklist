@@ -54,5 +54,5 @@ class AlertDialog extends React.Component {
     );
   }
 }
-  
+
 export default AlertDialog;
