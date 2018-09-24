@@ -1,6 +1,6 @@
 # Delve Relic Checklist
 
-Checklist / tracker for Relics in [Path of Exile](https://www.pathofexile.com/) Delve league: https://5k-mirrors.github.io/relic-checklist/
+Checklist / tracker for Relics in [Path of Exile](https://www.pathofexile.com/) Delve league: https://5k-mirrors.github.io/delve-relic-checklist/
 
 ## Saving / sharing
 Your list will be remembered by your browser. You can use the URL to share, export or import your list.
