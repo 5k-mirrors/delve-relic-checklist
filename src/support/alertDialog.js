@@ -34,7 +34,6 @@ class AlertDialog extends React.Component {
         minWidth: '0px',
         padding: '0px; 0px',
         minHeight: '0px',
-        className: "tileItem"
       },
     })(Button);
 
