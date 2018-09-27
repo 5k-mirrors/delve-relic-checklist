@@ -110,7 +110,7 @@ class List extends React.Component {
     return (
       <div>
         <div>
-          <h3 className="counter transparent-tile">
+          <h3 className="transparent-tile">
            {this.state.checklist.length} / {this.sumOfRelics}
           </h3>
           <StyledButton variant="contained" onClick={this.clearChecklistAndLocalStorage} color="secondary">
