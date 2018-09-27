@@ -460,6 +460,11 @@
       "name": "Tempered Spirit",
       "icon": "https://web.poecdn.com/image/Art/2DItems/Jewels/TemperedGreen.png?scale=1&scaleIndex=0&w=1&h=1",
       "id": 86
+    },
+    {
+      "name": "Shadowstitch",
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/ShadowStitch.png?scale=1&scaleIndex=0&w=2&h=3",
+      "id": 153
     }
   ],
   "Incursion (upgraded items)": [
