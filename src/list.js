@@ -120,9 +120,9 @@ class List extends React.Component {
            </StyledButton>
            <div className="transparent-tile">
             <AlertDialog
-                label="Why 150?"
-                title="Why 150?"
-                contentText={<RelicCountDialogContent/>}
+                label={"Why " + this.sumOfRelics + "?"}
+                title={"Why " + this.sumOfRelics + "?"}
+                contentText={<RelicCountDialogContent sumOfRelics={this.sumOfRelics} />}
               />
             </div>
         </div>
