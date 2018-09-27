@@ -11,7 +11,7 @@ body {
 }
 
 .row:hover {
-  background-color: rgba(22, 160, 133, 0.6);
+  background-color: rgba(107, 156, 146, 0.6);
 }
 .row {
   display: flex;
