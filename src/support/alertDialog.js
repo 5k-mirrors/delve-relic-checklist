@@ -31,6 +31,9 @@ class AlertDialog extends React.Component {
     const StyledButton = withStyles({
       root: {
         color: 'white',
+        minWidth: '0px',
+        padding: '0px; 0px',
+        minHeight: '0px',
       },
     })(Button);
 
