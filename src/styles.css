@@ -11,6 +11,9 @@ body {
   background: rgba(0, 0, 0, 0.6);
 }
 
+.row:hover {
+  background-color: rgba(107, 156, 146, 0.6);
+}
 .row {
   display: flex;
   height: 50px;
@@ -26,6 +29,14 @@ body {
   width: 60px;
 }
 
+input[type="checkbox"] {	
+  -ms-transform: scale(1.5); /* IE */	
+  -moz-transform: scale(1.5); /* FF */	
+  -webkit-transform: scale(1.5); /* Safari and Chrome */	
+  -o-transform: scale(1.5); /* Opera */	
+  padding: 10px;	
+}
+
 .icon {
   max-width: 50px;
   max-height: 50px;
@@ -34,14 +45,6 @@ body {
 
 .checked {
   background-color: rgba(22, 160, 133, 0.6);
-}
-
-input[type="checkbox"] {
-  -ms-transform: scale(1.5); /* IE */
-  -moz-transform: scale(1.5); /* FF */
-  -webkit-transform: scale(1.5); /* Safari and Chrome */
-  -o-transform: scale(1.5); /* Opera */
-  padding: 10px;
 }
 
 .checklist {
