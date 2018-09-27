@@ -3,6 +3,8 @@ import React from 'react';
 import './styles.css';
 import relics from '../relics.json';
 import ListItem from './listitem';
+import AlertDialog from './support/alertDialog';
+import RelicCountDialogContent from './relic-count-dialog-content';
 
 import { addUrlProps, UrlQueryParamTypes, decode, encode, replaceInUrlQuery  } from 'react-url-query';
 import { configureUrlQuery } from 'react-url-query';
@@ -116,6 +118,13 @@ class List extends React.Component {
           <StyledButton variant="contained" onClick={this.clearChecklistAndLocalStorage} color="secondary">
              <DeleteIcon />
            </StyledButton>
+           <div className="transparent-tile">
+            <AlertDialog
+                label="Why 150?"
+                title="Why 150?"
+                contentText={<RelicCountDialogContent/>}
+              />
+            </div>
         </div>
         <label className="transparent-tile"><strong><input type="checkbox" onChange={e => this.setState({hideAquired: !this.state.hideAquired})}/> Hide aquired relics</strong></label>
         <div className="containter">

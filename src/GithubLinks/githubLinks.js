@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Link from './LinkTypes/link';
+import Link from '../support/link';
 import "../styles.css";
 
 const githubLinks = props => (

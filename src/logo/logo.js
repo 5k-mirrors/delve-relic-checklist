@@ -1,7 +1,7 @@
 import React from 'react';
 
 import "../styles.css";
-import Link from '../GithubLinks/LinkTypes/link';
+import Link from '../support/link';
 import OrgLogo from 'OrgLogo';
 
 const logo = () => (
