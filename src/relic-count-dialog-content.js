@@ -15,9 +15,12 @@ class RelicCountDialogContent extends React.Component {
         <br/>
         <ul>
           <li>The Retch cannot be produced as relic</li>
+          <li>The Beachhead cannot be produced as relic</li>
           <li>The Taming can be produced as relic</li>
+          <li>The Perandus Manor can be produced as relic</li>
           <li>There are no relic maps</li>
           <li>The following relics don't seem to drop: Fate of the Vaal, Night's Hold, Natural Hierarchy. Reasons are unknown (sources: <Link linkTo="https://www.reddit.com/r/pathofexile/comments/9ejqeu/bugged_there_are_0_fate_of_the_vaal_sword_opened/">1</Link>, <Link linkTo="https://www.pathofexile.com/forum/view-thread/2214627/page/1#p15802185">2</Link>).</li>
+          <li>2-socket abyss uniques are not counted separately</li>
         </ul>
         This puts the current known count at {this.sumOfRelics}.
       </div>
