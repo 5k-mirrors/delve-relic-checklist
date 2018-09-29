@@ -701,6 +701,11 @@
       "name": "Varunastra",
       "icon": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandSwords/Varunastra.png?scale=1&scaleIndex=0&w=2&h=3",
       "id": 131
+    },
+    {
+      "name": "The Perandus Manor",
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Maps/PerandusManor.png?scale=1&w=1&h=1",
+      "id": 154
     }
   ],
   "Prophecy": [
