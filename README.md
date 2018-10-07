@@ -13,7 +13,8 @@ Your list will be remembered by your browser. You can use the URL to share, expo
 - `The Beachhead` cannot be produced as relic
 - `The Taming` can be produced as relic
 - `The Perandus Manor` can be produced as relic
-- The following relics don't seem to drop: `Fate of the Vaal`, `Night's Hold`, `Natural Hierarchy`. Reasons are unknown (sources: [1](https://www.reddit.com/r/pathofexile/comments/9ejqeu/bugged_there_are_0_fate_of_the_vaal_sword_opened/), [2](https://www.pathofexile.com/forum/view-thread/2214627/page/1#p15802185)).
+- The following relics don't drop: `Night's Hold`, `Natural Hierarchy`, reasons are unknown
+- As of [3.4.3d](https://www.pathofexile.com/forum/view-thread/2232076) `Fate of the Vaal` can drop
 - 2-socket abyss uniques are not counted separately
 
-This puts the current known count at 152. Have fun collecting exiles!
+This puts the current known count at 153. Have fun collecting exiles!
