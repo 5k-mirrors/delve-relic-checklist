@@ -517,6 +517,11 @@
       "name": "Zerphi's Heart",
       "icon": "https://web.poecdn.com/image/Art/2DItems/Amulets/ZerphisHeart.png?scale=1&scaleIndex=0&w=1&h=1",
       "id": 97
+    },
+    {
+      "name": "Fate of the Vaal",
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandSwords/FateOfTheVaal.png?scale=1&scaleIndex=0&w=1&h=3",
+      "id": 155
     }
   ],
   "Invasion/Ambush": [
