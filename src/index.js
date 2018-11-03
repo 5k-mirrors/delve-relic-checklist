@@ -1,3 +1,5 @@
+import ReactGA from 'react-ga';
+
 import React from "react";
 import ReactDOM from "react-dom";
 
@@ -13,6 +15,8 @@ import { Helmet } from 'react-helmet';
 class App extends React.Component {
   constructor(){
     super();
+    ReactGA.initialize('UA-128619507-1');
+    ReactGA.pageview(window.location.pathname + window.location.search);
   }
 
   render() {
