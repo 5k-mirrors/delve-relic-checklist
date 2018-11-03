@@ -767,6 +767,11 @@
       "id": 141
     },
     {
+      "name": "The Retch",
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Belts/TheRetch.png?scale=1&scaleIndex=0&w=2&h=1",
+      "id": 156
+    },
+    {
       "name": "Rigwald's Command",
       "icon": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandSwords/RigwarlSword.png?scale=1&scaleIndex=0&w=2&h=3",
       "id": 142
@@ -800,6 +805,16 @@
       "name": "Eyes of the Greatwolf",
       "icon": "https://web.poecdn.com/image/Art/2DItems/Amulets/RigwaldsTalisman.png?scale=1&scaleIndex=0&w=1&h=1",
       "id": 150
+    },
+    {
+      "name": "Night's Hold",
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Amulets/SocketedTalisman.png?scale=1&scaleIndex=0&w=1&h=1",
+      "id": 157
+    },
+    {
+      "name": "Natural Hierarchy",
+      "icon": "https://web.poecdn.com/image/Art/2DItems/Amulets/TalismanUnique2.png?scale=1&scaleIndex=0&w=1&h=1",
+      "id": 158
     }
   ]
 }

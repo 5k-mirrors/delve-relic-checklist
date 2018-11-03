@@ -9,12 +9,9 @@ Your list will be remembered by your browser. You can use the URL to share, expo
 
 ## Relics
 [GGG announced](https://www.pathofexile.com/forum/view-thread/2197540) 151 relics. An initial list of 157 were gathered in [this reddit post](https://old.reddit.com/r/pathofexile/comments/97gmte/actual_list_of_151_reliquary_items/). Updates:
-- `The Retch` cannot be produced as relic
-- `The Beachhead` cannot be produced as relic
-- `The Taming` can be produced as relic
-- `The Perandus Manor` can be produced as relic
-- The following relics don't drop: `Night's Hold`, `Natural Hierarchy`, reasons are unknown
+- `The Beachhead` cannot drop and cannot be produced as relic (Harbinger's Orbs cannot be used on the unique relic Perandus Manor map)
 - As of [3.4.3d](https://www.pathofexile.com/forum/view-thread/2232076) `Fate of the Vaal` can drop
+- As of [3.4.3f](https://www.pathofexile.com/forum/view-thread/2239037) `Night's Hold` and `Natural Hierarchy` can drop, `The Retch` can be produced
 - 2-socket abyss uniques are not counted separately
 
-This puts the current known count at 153. Have fun collecting exiles!
+This puts the current known count at 156. Have fun collecting exiles!
